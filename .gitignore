@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env/
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.hdf5
+*.parquet
+*.db
+*.sqlite
+*.json
+*.log
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+*.pb
+
+# Config and secrets
+config.yaml
+config.json
+.env
+
+# Logs and debugging files
+logs/
+*.log
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency files
+Pipfile.lock
+poetry.lock
+
+# Docker
+Dockerfile
+*.tar
+
+# Kubernetes
+*.yaml
+
+# Terraform
+.terraform/
+*.tfstate
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
