@@ -1,8 +1,8 @@
 import os
 import time
 import logging
-import replicate
 import requests
+import replicate
 from dotenv import load_dotenv
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
