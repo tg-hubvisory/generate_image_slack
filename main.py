@@ -83,7 +83,7 @@ def process_message_events(client: SocketModeClient, req: SocketModeRequest):
                                     file.write(response.content)
                                 
                                 client.web_client.files_upload_v2(
-                                    channels=CHANNEL_ID,
+                                    channel=CHANNEL_ID,
                                     file=image_path,
                                     title="Image générée",
                                     initial_comment=f"<@{user_id}> Et voilà le travail ⚡"
